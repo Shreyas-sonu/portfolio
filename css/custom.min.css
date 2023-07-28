@@ -40,6 +40,13 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  .intro h1:before {
+    position: absolute;
+    left: -10px !important;
+    top: -150px !important;
+    font-size: 80px !important;
+    z-index: -1;
+    color: #f4f4f4; }
   footer {
     text-align: center;
   }
