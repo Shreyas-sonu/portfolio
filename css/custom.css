@@ -148,6 +148,7 @@ a:hover {
     margin: 150px 0px;
     padding: 30px 20px;
     border: 5px solid #fff;
+    border-radius: 20px 0;
     color: #fff; }
 .resumeDown:hover{
   color: crimson !important;
