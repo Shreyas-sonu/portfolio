@@ -1,3 +1,3 @@
-My Portfolio.
+About my professional Carrier
 
-Click here to view <a href="https://shreyas-sonu.github.io/portfolio/">Demo</a>
+<a href="https://shreyas-sonu.github.io/portfolio/">Click to view</a>
