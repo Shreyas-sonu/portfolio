@@ -39,11 +39,12 @@ a:hover {
 #anime-block {
   animation: hideout 0.2s ease 5.5s forwards;
   background-color: #111;
+  overflow: hidden;
 }
 #containerAnime {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
