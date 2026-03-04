@@ -40,7 +40,7 @@ a:hover {
   animation: hideout 0.2s ease 5.5s forwards;
   background-color: #111;
 }
-#containerAnime{
+#containerAnime {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -149,7 +149,7 @@ a:hover {
   }
 }
 @media only screen and (max-width: 767px) {
-  #containerAnime{
+  #containerAnime {
     height: 95vh;
   }
   .intro img {
@@ -255,6 +255,10 @@ a:hover {
 .main-nav {
   background: #f4f4f4;
   padding-top: 23px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 .main-nav nav ul li a {
   color: #a7a7a7;
@@ -356,6 +360,53 @@ a:hover {
 .resumeDown:hover {
   color: crimson !important;
 }
+/* Work detail list */
+.work-detail-list {
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 18px;
+}
+.work-detail-list li {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 0.9em;
+  color: #4e4e4e;
+  line-height: 1.7em;
+  margin-bottom: 6px;
+}
+.work-detail-list li em {
+  color: #8c8c8c;
+  font-size: 0.9em;
+}
+
+/* Project category dividers */
+.project-category {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 0.8125em;
+  font-weight: 700;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+/* Tech stack tag on project entries */
+.award-list li.tech-tag {
+  font-size: 0.775em !important;
+  color: #a7a7a7 !important;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* Description line in award list */
+.award .award-list li:nth-child(3) {
+  font-size: 0.875em;
+  color: #666;
+  line-height: 1.6em;
+  margin-bottom: 2px;
+}
+
 footer {
   padding: 50px 0px 0px 0px;
 }
